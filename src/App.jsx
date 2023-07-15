@@ -1,7 +1,7 @@
 import {useState} from 'react'
 import Formulario from "./components/Formulario"
 import ListadoPaciente from "./components/ListadoPaciente"
-import Header from "./components/header"
+import Header from "./components/Header"
 
 function App() {
 
@@ -18,7 +18,9 @@ function App() {
           pacientes={pacientes}
           setPacientes={setPacientes}
         />
-        <ListadoPaciente/> 
+        <ListadoPaciente 
+          pacientes={pacientes}
+        /> 
       </div>
     </div>
   )
