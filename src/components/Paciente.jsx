@@ -18,9 +18,8 @@ export const Paciente = ({paciente}) => {
         <span className="font-normal normal-case"> {email}</span>
       </p>
       <p className="font-bold text-gray-700 mb-3 uppercase">
-        Fecha Alta:
+        Fecha Alta:{" "}
         <span className="font-normal normal-case">
-          {" "}
           {fecha}
         </span>
       </p>
