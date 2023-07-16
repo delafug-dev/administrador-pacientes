@@ -27,6 +27,11 @@ export const Paciente = ({paciente}) => {
         Síntomas
         <span className="font-normal normal-case">{sintomas}</span>
       </p>
+
+      <div className="flex justify-between">
+        <button className="py-2 px-5 bg-indigo-600 hover:bg-indigo-700 text-white uppercase font-bold rounded-md">Editar</button>
+        <button className="py-2 px-5 bg-red-600 hover:bg-red-700 text-white uppercase font-bold rounded-md">Eliminar</button>
+      </div>
     </div>
   );
 }
